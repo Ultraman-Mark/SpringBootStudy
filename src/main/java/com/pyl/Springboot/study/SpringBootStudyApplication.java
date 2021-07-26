@@ -1,17 +1,15 @@
-package com.pyl.Springboot.Coupons;
+package com.pyl.Springboot.study;
 
-import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
 
 //应用启动类
 @SpringBootApplication
+//包含@SpringbootConfiguration,@EnableAutoConfiguration（核心）,@ComponentScan三个关键注解
 public class SpringBootStudyApplication {
     public static void main(String[] args) {
 //        1.通过静态run方法
-//        SpringApplication.run(SpringBootStudyApplication.class,args);
+        SpringApplication.run(SpringBootStudyApplication.class,args);
 
 //        2.通过api调整应用行为
 //        SpringApplication application = new SpringApplication(SpringBootStudyApplication.class);

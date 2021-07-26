@@ -1,0 +1,15 @@
+spring:
+#  profiles:
+#    active: dev
+  application:
+    name: Springboot
+
+server:
+  servlet:
+    context-path: /pyl
+  port: 8000
+
+pyl:
+  springboot:
+    version: 1.0
+    name: study
