@@ -2,8 +2,17 @@ package com.pyl.Springboot.study;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableAsync;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
-//应用启动类
+/**
+ * 应用启动类
+ * 1.@EnableScheduling允许当前任务开启定时任务
+ * 2.@EnableAsync允许当前任务开启异步任务
+ * Created by PYL
+ */
+@EnableAsync
+@EnableScheduling
 @SpringBootApplication
 //包含@SpringbootConfiguration,@EnableAutoConfiguration（核心）,@ComponentScan三个关键注解
 public class SpringBootStudyApplication {
@@ -18,6 +27,7 @@ public class SpringBootStudyApplication {
 //        application.run(args);
 //
 //        3.SpringApplicationBuilder Fluent Api,链式调用
+
 //        new SpringApplicationBuilder(SpringBootStudyApplication.class)
 //                .bannerMode(Banner.Mode.OFF)
 //                .web(WebApplicationType.NONE)

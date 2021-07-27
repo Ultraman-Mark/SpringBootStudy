@@ -7,7 +7,8 @@ import org.springframework.stereotype.Component;
 
 /**
  * springboot 配置
- */
+ * Created by PYL
+ * */
 @Data
 @Component
 @ConfigurationProperties(prefix = "pyl.springboot")

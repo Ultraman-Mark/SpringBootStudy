@@ -1,4 +1,4 @@
-package com.pyl.Springboot.study.Controller;
+package com.pyl.Springboot.study.controller;
 
 
 import com.pyl.Springboot.study.config.SpringBootConfig;
@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * Created by PYL
+ * */
 @Slf4j
 @RestController
 @RequestMapping("/springboot")
