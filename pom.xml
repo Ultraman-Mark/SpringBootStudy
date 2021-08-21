@@ -64,7 +64,7 @@
     </dependencies>
 
     <build>
-        <finalName>Springboot</finalName>
+        <finalName>PYL-springboot-coupons</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
