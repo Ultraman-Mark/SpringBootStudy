@@ -13,7 +13,7 @@ import java.time.format.DateTimeFormatter;
  * Created by PYL
  * */
 @Slf4j
-@Component
+//@Component
 public class BootSchedule {
     private final DateTimeFormatter fmt = DateTimeFormatter.ofPattern(
             "HH:mm:ss"
