@@ -13,3 +13,18 @@ pyl:
   springboot:
     version: 1.0
     name: study
+
+management:
+  endpoint:
+    shutdown:
+      enabled: true #最特殊的监控端点
+  endpoints:
+    web:
+      exposure:
+        include: "*" #打开所有监控点
+
+info:
+  app:
+    name: Springboot
+    groupId: com.pyl.springboot.Coupons
+    version: 2.3.11.RELEASE
