@@ -61,6 +61,12 @@
             <scope>test</scope>
         </dependency>
         <!--自定义starter-->
+        <dependency>
+            <groupId>com.pyl.springboot</groupId>
+            <artifactId>split-spring-boot-starter</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
     <build>

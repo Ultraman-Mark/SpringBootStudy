@@ -26,7 +26,7 @@ public class AsyncServiceTest {
     @Test
     public void testAsymcProcess() throws InterruptedException{
         asyncService.asyncProcess();
-        log.info("comr in testAsyncProcess...");
+        log.info("come in testAsyncProcess...");
     }
 
     @Test
